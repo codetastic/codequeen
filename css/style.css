@@ -1,18 +1,35 @@
-#mummy {
+.topbox {
   width: 100%;
 }
 
-#billy {
+.toptitle {
   background-color: #ff0000;
   width: 50%;
   float: left;
 }
 
-#tommy {
+.toplogo {
   background-color: white;
   width: 50%;
   float: left;
 margin: auto;
+}
+
+.book {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.bookreview {
+  width: 46%;
+  float: left;
+padding: 2%;
+}
+
+.bookimage {
+  width: 46%;
+  float: left;
+  padding: 2%;
 }
 
 h1 {
@@ -22,4 +39,9 @@ h1 {
 
 h2 {
   font-size: 1em;
+  generic-family: "fantasy";
+}
+
+body {
+  background-color: yellow;
 }
